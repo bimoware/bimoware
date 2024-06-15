@@ -1,18 +1,6 @@
 <h1 align="center">Hi 👋, I'm Bimoware</h1>
 <h3 align="center">A passionate frontend developer from Morroco</h3>
 
-- 🔭 I’m currently working on [musicUI](https://github.com/bimoware/musicUI)
-
-- 🌱 I’m currently learning **React**
-
-- 👯 I’m looking to collaborate on **Discord bots**
-
-- 🤝 I’m looking for help with **React learning**
-
-- 💬 Ask me about **Node.js applications**
-
-- 📫 How to reach me **bimoware@gmail.com**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://stackoverflow.com/users/17010560" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="17010560" height="30" width="40" /></a>
