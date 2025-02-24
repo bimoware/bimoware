@@ -5,6 +5,7 @@
 [![reimaginedreadme](https://reimaginedreadme-lilac.vercel.app/api/embed/bimoware?panels=userstatistics,toprepositories,toplanguages,commitgraph)]([https://github.com/bimoware/math-exercices])
 
 # Tier List
+
 | I ... | Tools |
 | - | - |
 | am active on | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=stackoverflow,github,instagram&theme=dark&perline=12)](https://skillicons.dev) |
@@ -16,5 +17,9 @@
 | plan on trying | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=bun,deno,electron,express,firebase,go,java,lua,ruby,sass,svelte,swift,androidstudio,arcbrowser&theme=dark&perline=12)](https://skillicons.dev) |
 | am scared of | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=angular,latex,c,cs,cpp,godot,graphql,netlify,flutter,bootstrap,dotnet,figma,kotlin,neovim,nim,pnpm,postgres,rust,threejs&theme=dark&perline=12)](https://skillicons.dev) |
 | despise | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=microsoftcopilot,svg&theme=dark&perline=12)](https://skillicons.dev) |
-## Current Favorite Project
-> [bimoware/better-instagram](https://github.com/bimoware/better-instagram) ❤️
+
+## Current Favorite Projects
+
+> [bimoware/better-instagram](https://github.com/bimoware/better-instagram)
+
+> [bimoware/math-exercices](https://github.com/bimoware/math-exercices)
