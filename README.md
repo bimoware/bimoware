@@ -18,8 +18,6 @@
 | am scared of | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=angular,latex,c,cs,cpp,godot,graphql,netlify,flutter,bootstrap,dotnet,figma,kotlin,neovim,nim,pnpm,postgres,rust,threejs&theme=dark&perline=12)](https://skillicons.dev) |
 | despise | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=microsoftcopilot,svg&theme=dark&perline=12)](https://skillicons.dev) |
 
-## Current Favorite Projects
+## Current Favorite Project
 
-> [bimoware/better-instagram](https://github.com/bimoware/better-instagram)
-
-> [bimoware/math-exercices](https://github.com/bimoware/math-exercices)
+> [bimoware/bimowy](https://github.com/bimoware/bimowy)
