@@ -1,9 +1,5 @@
 <div align="center">
 
-<img width="120" src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/558ab792aec59eb639671d41c5666ef12f6d0d80/assets/Writing%20hand/Light/3D/writing_hand_3d_light.png"/>
-
-[![reimaginedreadme](https://reimaginedreadme-lilac.vercel.app/api/embed/bimoware?panels=userstatistics,toprepositories,toplanguages,commitgraph)]([https://github.com/bimoware/math-exercices])
-
 # Tier List
 
 | I ... | Tools |
@@ -18,6 +14,10 @@
 | am scared of | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=angular,latex,c,cs,cpp,godot,graphql,netlify,flutter,bootstrap,dotnet,figma,kotlin,neovim,nim,pnpm,postgres,rust,threejs&theme=dark&perline=12)](https://skillicons.dev) |
 | despise | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=microsoftcopilot,svg&theme=dark&perline=12)](https://skillicons.dev) |
 
+</div>
+
 ## Current Favorite Project
 
-> [bimoware/bimowy](https://github.com/bimoware/bimowy)
+[bimoware/bimowy](https://github.com/bimoware/bimowy)
+
+Go check it out now! -> https://bimowy.vercel.app/
