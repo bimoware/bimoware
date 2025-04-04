@@ -3,7 +3,7 @@ new User({
     realName: process.env.REALNAME,
     username: 'Bimoware',
     age: 18,
-    birthday: ['2007','03',process.env.BIRTHDAY_DAY],
+    birthday: ['26','03','2007'],
     country: { name: 'Morocco', code: 'MA' },
     tools: {
         web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js'],
