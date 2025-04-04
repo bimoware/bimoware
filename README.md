@@ -1,23 +1,54 @@
+```ts
+new User({
+    realName: process.env.REALNAME,
+    username: 'Bimoware',
+    age: 18,
+    birthday: ['2007','03',process.env.BIRTHDAY_DAY],
+    country: { name: 'Morocco', code: 'MA' },
+    tools: {
+        web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js'],
+        mobile: null, // TODO: Learn React Native
+        desktop: null, // TODO: Learn Electron
+        database: null, // TODO: Learn PostgreSQL, SQLite or Firebase..
+        cloud: ['Vercel'], // TODO: Stop being poor lmao
+        design: ['Figma'],
+        other: ['Github Desktop', 'Discord']
+    },
+    os: 'Windows', // TODO: Try Linux
+    languages: ['English', 'French', 'Arabic'], // TODO: Learn Japenese
+    hobbies: ['Programming', 'Music', 'Gaming'], // TODO: Get a life
+    socials: [
+        { name: 'Discord', username: 'bimoware', token: process.env.DISCORD_TOKEN },
+        { name: 'Github', username: 'bimoware' },
+        { name: 'Instagram', username: process.env.INSTAGRAM_USERNAME }
+    ],
+    currentProjects: [
+        {
+            priority: true,
+            name: 'bimowy',
+            slug: 'bimoware/bimowy',
+            description: 'Auto-generated math training platform.',
+            link: 'https://bimowy.vercel.app/'
+        },
+        {
+            priority: false,
+            name: 'better-instagram',
+            slug: 'bimoware/better-instagram',
+            description: 'My better version of instagram. With a mix of Discord & Snapchat, all with astonishing UI design.',
+            link: null
+        }
+    ]
+})
+```
 <div align="center">
-
-# Tier List
 
 | I ... | Tools |
 | - | - |
-| am active on | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=stackoverflow,github,instagram&theme=dark&perline=12)](https://skillicons.dev) |
-| love | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=discord,discordjs,nodejs,pygame,py,react,tailwind,ts,vscode,vscodium&theme=dark&perline=12)](https://skillicons.dev) |
-| like | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=sqlite,css,html,js,obsidian,desmos&theme=dark&perline=12)](https://skillicons.dev) |
-| used to work with | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=notion,sublime,nextjs,materialui,mongodb,mysql,notion,opencv,replit,canva&theme=dark&perline=12)](https://skillicons.dev) |
-| am forced to use | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=windows,vercel,codepen,chrome,chromium,git,npm,md&theme=dark&perline=12)](https://skillicons.dev) |
-| barely figure out | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=regex,latex,figma,robloxstudio,supabase&theme=dark&perline=12)](https://skillicons.dev) |
-| plan on trying | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=bun,deno,electron,express,firebase,go,java,lua,ruby,sass,svelte,swift,androidstudio,arcbrowser&theme=dark&perline=12)](https://skillicons.dev) |
-| am scared of | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=angular,latex,c,cs,cpp,godot,graphql,netlify,flutter,bootstrap,dotnet,figma,kotlin,neovim,nim,pnpm,postgres,rust,threejs&theme=dark&perline=12)](https://skillicons.dev) |
-| despise | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=microsoftcopilot,svg&theme=dark&perline=12)](https://skillicons.dev) |
-
+| am active on | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=stackoverflow,github,instagram&theme=dark&perline=15)](https://skillicons.dev) |
+| work with | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vercel,git,npm,next,discord,discordjs,svg,nodejs,pygame,py,react,tailwind,ts,vscode,canva&theme=dark&perline=15)](https://skillicons.dev) |
+| used to work with | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=sqlite,css,html,obsidian,notion,sublime,nextjs,materialui,vscodium,mongodb,notion,opencv,replit&theme=dark&perline=15)](https://skillicons.dev) |
+| unfortunatly forced to use | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=windows,chrome,chromium&theme=dark&perline=15)](https://skillicons.dev) |
+| barely figure out | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=mysql,regex,latex,figma,robloxstudio,supabase&theme=dark&perline=15)](https://skillicons.dev) |
+| plan on trying | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=bun,deno,electron,express,firebase,go,java,lua,ruby,sass,svelte,swift,androidstudio,arcbrowser&theme=dark&perline=15)](https://skillicons.dev) |
+| am scared of | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=angular,latex,c,cs,cpp,godot,graphql,netlify,flutter,desmos,bootstrap,dotnet,figma,kotlin,neovim,nim,pnpm,postgres,rust,threejs&theme=dark&perline=15)](https://skillicons.dev) |
 </div>
-
-## Current Favorite Project
-
-[bimoware/bimowy](https://github.com/bimoware/bimowy)
-
-Go check it out now! -> https://bimowy.vercel.app/
