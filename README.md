@@ -1,44 +1,54 @@
 ```ts
-new User({
+new User()
+.addPersonalInfo({
     realName: process.env.REALNAME,
     username: 'Bimoware',
     age: 18,
     birthday: ['26','03','2007'],
-    country: { name: 'Morocco', code: 'MA' },
-    tools: {
-        web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js'],
-        mobile: null, // TODO: Learn React Native
-        desktop: null, // TODO: Learn Electron
-        database: null, // TODO: Learn PostgreSQL, SQLite or Firebase..
-        cloud: ['Vercel'], // TODO: Stop being poor lmao
-        design: ['Figma'],
-        other: ['Github Desktop', 'Discord']
-    },
-    os: 'Windows', // TODO: Try Linux
-    languages: ['English', 'French', 'Arabic'], // TODO: Learn Japenese
-    hobbies: ['Programming', 'Music', 'Gaming'], // TODO: Get a life
-    socials: [
-        { name: 'Discord', username: 'bimoware', token: process.env.DISCORD_TOKEN },
-        { name: 'Github', username: 'bimoware' },
-        { name: 'Instagram', username: process.env.INSTAGRAM_USERNAME }
-    ],
-    currentProjects: [
-        {
-            priority: true,
-            name: 'bimowy',
-            slug: 'bimoware/bimowy',
-            description: 'Auto-generated math training platform.',
-            link: 'https://bimowy.vercel.app/'
-        },
-        {
-            priority: false,
-            name: 'better-instagram',
-            slug: 'bimoware/better-instagram',
-            description: 'My better version of instagram. With a mix of Discord & Snapchat, all with astonishing UI design.',
-            link: null
-        }
-    ]
+    country: { name: 'Morocco', code: 'MA' }
 })
+.addTools({
+    web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js'],
+    mobile: null, // TODO: Learn React Native
+    desktop: null, // TODO: Learn Electron
+    database: null, // TODO: Learn PostgreSQL, SQLite or Firebase..
+    cloud: ['Vercel'], // TODO: Stop being poor lmao
+    design: ['Figma'],
+    other: ['Github Desktop', 'Discord']
+})
+.setOS('Windows') // TODO: Try Linux
+.setLanguages(['English', 'French', 'Arabic']) // TODO: Learn Japenese?
+.setHobbies(['Programming', 'Music', 'Gaming']) // TODO: Get a life
+.setSocials([
+    { name: 'Discord', username: 'bimoware', token: process.env.DISCORD_TOKEN },
+    { name: 'Github', username: 'bimoware' },
+    { name: 'Instagram', username: process.env.INSTAGRAM_USERNAME }
+])
+.setProjects([
+    {
+        ready: true,
+        priority: true,
+        name: 'bimowy',
+        slug: 'bimoware/bimowy',
+        description: 'Auto-generated math training platform.',
+        link: 'https://bimowy.dev/'
+    },
+    {
+        ready: false,
+        name: 'portfolio',
+        slug: null,
+        link: 'https://bimo.dev/'
+    },
+    {
+        ready: false,
+        priority: false,
+        name: 'better-instagram',
+        slug: 'bimoware/better-instagram',
+        description: 'My better version of instagram. With a mix of Discord & Snapchat, all with astonishing UI design.',
+        link: null
+    }
+])
+.start()
 ```
 <div align="center">
 
