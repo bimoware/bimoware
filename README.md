@@ -1,13 +1,14 @@
 ```ts
 new User()
-.addPersonalInfo({
+.setSchool(this.schools.get('Akhawayn University in Ifrane (AUI)'))
+.setPersonal({
     realName: process.env.REALNAME,
     username: 'Bimoware',
     age: 18,
     birthday: ['26','03','2007'],
     country: { name: 'Morocco', code: 'MA' }
 })
-.addTools({
+.setTools({
     web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js'],
     mobile: null, // TODO: Learn React Native
     desktop: null, // TODO: Learn Electron
@@ -48,7 +49,7 @@ new User()
         link: null
     }
 ])
-.start()
+.deploy()
 ```
 <div align="center">
 
