@@ -9,10 +9,10 @@ new User()
     country: { name: 'Morocco', code: 'MA' }
 })
 .setTools({
-    web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js'],
+    web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js','shadcn/ui],
     mobile: null, // TODO: Learn React Native
     desktop: null, // TODO: Learn Electron
-    database: null, // TODO: Learn PostgreSQL, SQLite or Firebase..
+    database: ['Supabase'], // TODO: Learn PostgreSQL, SQLite, Firebase..
     cloud: ['Vercel'], // TODO: Stop being poor lmao
     design: ['Figma'],
     other: ['Github Desktop', 'Discord']
@@ -21,9 +21,8 @@ new User()
 .setLanguages(['English', 'French', 'Arabic']) // TODO: Learn Japenese?
 .setHobbies(['Programming', 'Music', 'Gaming']) // TODO: Get a life
 .setSocials([
-    { name: 'Discord', username: 'bimoware', token: process.env.DISCORD_TOKEN },
-    { name: 'Github', username: 'bimoware' },
-    { name: 'Instagram', username: process.env.INSTAGRAM_USERNAME }
+    { name: 'Discord', username: 'malik.lhl', token: process.env.DISCORD_TOKEN },
+    { name: 'Github', username: 'bimoware' }
 ])
 .setProjects([
     {
@@ -41,12 +40,12 @@ new User()
         link: 'https://bimo.dev/'
     },
     {
-        ready: false,
+        ready: true,
         priority: false,
-        name: 'better-instagram',
-        slug: 'bimoware/better-instagram',
-        description: 'My better version of instagram. With a mix of Discord & Snapchat, all with astonishing UI design.',
-        link: null
+        name: 'aui-planner',
+        slug: 'bimoware/aui-planner',
+        description: 'Calendar maker for AUI Students',
+        link: 'https://aui-planner.vercel.app'
     }
 ])
 .deploy()
