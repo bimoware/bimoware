@@ -1,64 +1,11 @@
-```ts
-new User()
-.setSchool(this.schools.get('Akhawayn University in Ifrane (AUI)'))
-.setPersonal({
-    realName: process.env.REALNAME,
-    username: 'Bimoware',
-    age: 18,
-    birthday: ['26','03','2007'],
-    country: { name: 'Morocco', code: 'MA' }
-})
-.setTools({
-    web: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Express.js','shadcn/ui],
-    mobile: null, // TODO: Learn React Native
-    desktop: null, // TODO: Learn Electron
-    database: ['Supabase'], // TODO: Learn PostgreSQL, SQLite, Firebase..
-    cloud: ['Vercel'], // TODO: Stop being poor lmao
-    design: ['Figma'],
-    other: ['Github Desktop', 'Discord']
-})
-.setOS('Windows') // TODO: Try Linux
-.setLanguages(['English', 'French', 'Arabic']) // TODO: Learn Japenese?
-.setHobbies(['Programming', 'Music', 'Gaming']) // TODO: Get a life
-.setSocials([
-    { name: 'Discord', username: 'malik.lhl', token: process.env.DISCORD_TOKEN },
-    { name: 'Github', username: 'bimoware' }
-])
-.setProjects([
-    {
-        ready: true,
-        priority: true,
-        name: 'bimowy',
-        slug: 'bimoware/bimowy',
-        description: 'Auto-generated math training platform.',
-        link: 'https://bimowy.dev/'
-    },
-    {
-        ready: false,
-        name: 'portfolio',
-        slug: null,
-        link: 'https://bimo.dev/'
-    },
-    {
-        ready: true,
-        priority: false,
-        name: 'aui-planner',
-        slug: 'bimoware/aui-planner',
-        description: 'Calendar maker for AUI Students',
-        link: 'https://aui-planner.vercel.app'
-    }
-])
-.deploy()
-```
-<div align="center">
+- Doesn't know how to code
+- Commits named "fix + refactoring"
+- Likes to add TODOs and never think of touching them again
+- Comments that serve no purpose
+- Name variables "thing", "thing2", "otherThing"
+- Spams side projects instead of studying for 4 credit courses
+- Always dark mode
 
-| I ... | Tools |
-| - | - |
-| am active on | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=stackoverflow,github,instagram&theme=dark&perline=15)](https://skillicons.dev) |
-| work with | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vercel,git,npm,next,discord,discordjs,svg,nodejs,pygame,py,react,tailwind,ts,vscode,canva&theme=dark&perline=15)](https://skillicons.dev) |
-| used to work with | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=sqlite,css,html,obsidian,notion,sublime,nextjs,materialui,vscodium,mongodb,notion,opencv,replit&theme=dark&perline=15)](https://skillicons.dev) |
-| unfortunatly forced to use | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=windows,chrome,chromium&theme=dark&perline=15)](https://skillicons.dev) |
-| barely figure out | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=mysql,regex,latex,figma,robloxstudio,supabase&theme=dark&perline=15)](https://skillicons.dev) |
-| plan on trying | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=bun,deno,electron,express,firebase,go,java,lua,ruby,sass,svelte,swift,androidstudio,arcbrowser&theme=dark&perline=15)](https://skillicons.dev) |
-| am scared of | [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=angular,latex,c,cs,cpp,godot,graphql,netlify,flutter,desmos,bootstrap,dotnet,figma,kotlin,neovim,nim,pnpm,postgres,rust,threejs&theme=dark&perline=15)](https://skillicons.dev) |
-</div>
+## Current favorite side project
+
+- https://aui-planner.vercel.app/ - Powerful calendar maker for AUI Students looking to spot possible overlaps, try out different section combinations, or simply visualize a possible schedule. Also allows for exporting to Google Calendar & iCalendar (.ics)
