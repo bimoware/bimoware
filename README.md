@@ -7,5 +7,5 @@
 - Always dark mode
 
 ## Current favorite side project
-
+- https://bimowy.dev/ - Khan academy but with much more creativity & fully open-source
 - https://aui-planner.vercel.app/ - Powerful calendar maker for AUI Students looking to spot possible overlaps, try out different section combinations, or simply visualize a possible schedule. Also allows for exporting to Google Calendar & iCalendar (.ics)
